@@ -9,12 +9,12 @@ const Nav = ({ setLibraryStatus, libraryStatus }) => {
   
     return (
       <nav>
-        <h1>Lección de esta semana</h1>
+        <h1>International Feeds</h1>
         <button
           className={libraryStatus ? "library-active" : ""}
           onClick={openLibraryHandler}
         >
-          Lecciones
+          + International Feeds
           <FontAwesomeIcon icon={faMusic}></FontAwesomeIcon>
         </button>
       </nav>
